@@ -1,0 +1,42 @@
+/*
+ * Dynamic Forms - SharePoint Stylesheet Test
+ *
+ * Purpose:
+ * This is a simple test stylesheet to confirm that Dynamic Forms
+ * can successfully load a CSS file hosted in SharePoint.
+ *
+ * If this file loads, the form background should become very light gray
+ * and the test styles below should be visible where the corresponding
+ * Dynamic Forms classes are used.
+ */
+
+/* Overall form background */
+.DynamicForms_Maintable {
+    background-color: #F2F2F2;
+}
+
+/* Main table */
+.DynamicForms_Maintable table {
+    border-collapse: collapse;
+}
+
+/* Table rows/cells */
+.DynamicForms_TableRow {
+    border-color: #000000;
+}
+
+.DynamicForms_QuestionTableCell {
+    border-color: #000000;
+}
+
+/* Links */
+.DynamicForms_Link {
+    color: #8764B8;
+}
+
+/*
+ * TEST MARKER
+ *
+ * If you later inspect the loaded page and these styles are being applied,
+ * we can replace this test CSS with the actual Outside Assignment styling.
+ */
