@@ -1,3 +1,30 @@
-html {
-    filter: invert(1) !important;
+/* ==========================================
+   Outside Assignment Request
+   Dynamic Forms Stylesheet
+   ========================================== */
+
+/* ---------- Base Form ---------- */
+
+#formBody {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+/* ---------- Form Container ---------- */
+
+#DynamicFormPanel {
+    background-color: #ffffff;
+}
+
+/* ---------- Form Tables ---------- */
+
+#DynamicFormPanel table {
+    border-collapse: collapse;
+}
+
+/* ---------- Form Cells ---------- */
+
+#DynamicFormPanel td {
+    border: 1px solid #333333;
+    padding: 6px 8px;
 }
