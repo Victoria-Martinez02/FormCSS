@@ -71,6 +71,10 @@ td.verAlignTop:has(> div.inputcontainer) {
     border: 1px solid #333 !important;
 }
 
+.form-value {
+    border: 1px solid #333;
+    padding: 6px 10px;
+}
 
 /* ========================================
    INPUT FIELDS
